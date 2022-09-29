@@ -1,13 +1,33 @@
+html {
+  font-size: 62.5%;
+}
+
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  font: 300 11px/1.4 "Helvetica Neu", "sans-serif";
+  color: #17242A;
+  background-color: #3AAFA9;
+  overflow: auto;
+  display: block;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+body::-webkit-scrollbar {
+  width: 6px;               /* width of the entire scrollbar */
+  
+}
+
+body::-webkit-scrollbar-track {
+  background: #062631;        /* color of the tracking area */
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: #17242A;    /* color of the scroll thumb */
+}
+
+@media screen and (max-width: 1200px) {
+  body {
+    overflow: visible;
+  }
 }

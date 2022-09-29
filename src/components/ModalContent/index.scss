@@ -1,0 +1,89 @@
+.modal-content-sub{
+    z-index: 40;
+    position: absolute;
+    display: flex;
+    top: 5%;
+    left: 25%;
+    text-align: center;
+    color: #17242A;
+    padding: 2% auto;
+    background-color:#3AAFA9;
+    border-radius: 15px;
+    width: 50%;
+    height: auto;
+    min-height: 100vh;
+    min-width: 50%;
+    margin: 0 auto;
+    font-family: sans-serif;
+    flex-direction: column;
+    opacity: 0;
+    animation: fadeInUp 0.7s 0.1s;
+    animation-fill-mode: forwards;
+    clear: both;
+    padding-bottom: 10px;
+    h4{
+        font-size: 16px;
+        opacity: 0;
+        animation: fadeInUp 1s 0.5s;
+        animation-fill-mode: forwards;
+    }
+    .image-cont {
+
+        img {
+            opacity: 0;
+            border-radius: 2rem;
+        width: 90%;
+        height: auto;
+        box-shadow: 1px 2px 5px #17242A;
+        animation: fadeIn 1s 0.5s;
+        animation-fill-mode: forwards;
+        }
+
+        video{
+            opacity: 0;
+            border-radius: 2rem;
+        width: 90%;
+        height: auto;
+        box-shadow: 1px 2px 5px #17242A;
+        animation: fadeIn 1s 0.5s;
+        animation-fill-mode: forwards;
+        }
+        
+    }
+    
+    .content-description {
+        margin-bottom: 2rem;
+        font-size: 14px;
+        font-family: sans-serif;
+        font-weight: 300;
+        padding: 0 5rem;
+        text-align: center;
+        color: #17242A;
+        opacity: 0;
+        animation: fadeInUp 1s 0.5s;
+        animation-fill-mode: forwards;
+    }
+
+    a{
+        text-decoration: none;
+        color:#17242A;
+        font-size: 1.4em;
+
+        &:hover {
+            color: #fff;
+            font-size: 1.5em;
+        }
+    }
+
+}
+
+@media screen and (max-width: 1200px) {
+    .modal-content-sub{
+        width: 90%;
+        left: 5%;
+        top: 0;
+        margin: 30px auto 10px auto;
+        box-sizing: border-box;
+    }
+}
+

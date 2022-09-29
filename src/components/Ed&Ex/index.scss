@@ -1,0 +1,184 @@
+.card-wrapper {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #3AAFA9;
+    color: #DEF2F1;
+
+  }
+  
+  .xpCard{
+    height: 55vh;
+    width: 35vh;
+    border-radius: 13px;
+    box-shadow: 20px 40px 33px rgba(0, 0, 0, 0.3);
+    padding: 2rem;
+    background-color: #17242A;
+    
+  }
+  
+  .image-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 20vh;
+    background-image: linear-gradient(70deg, #419c99, #4fb3af);
+    border-radius: 15px;
+    font-size: 15vh;
+  }
+  
+  .xpCard h2 {
+    font-size: 2.5vh;
+    color: #DEF2F1;
+    font-family: "Coolvetica";
+  }
+  
+  .xpCard p {
+    font-size: 1.8vh;
+    font-family: "Helvetica Neue";
+    font-weight: 200;
+  }
+
+  .full-page {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+
+    svg {
+      position: absolute;
+      height: 900%;
+      width: 100vh;
+      opacity: 0.4;
+    }
+
+    .graduated1 {
+      position: absolute;
+      font-size: 10rem;
+      color: #17242A;
+      opacity: 0.6;
+      font-family: 'La Belle Aurore';
+      margin-left: 70%;
+      transform: rotate(-10deg);
+      margin-top: 130%;
+    }
+    .graduated2 {
+      position: absolute;
+      font-size: 10rem;
+      color: #17242A;
+      opacity: 0.6;
+      font-family: 'La Belle Aurore';
+      margin-left: 70%;
+      transform: rotate(-10deg);
+      margin-top: 370%;
+    }
+    .p2016 {
+      position: absolute;
+      font-size: 10rem;
+      color: #17242A;
+      opacity: 0.6;
+      font-family: 'La Belle Aurore';
+      margin-left: 13%;
+      transform: rotate(-3deg);
+      margin-top: 4.1em;
+    }
+    .p2017 {
+      position: absolute;
+      font-size: 10rem;
+      color: #17242A;
+      opacity: 0.6;
+      font-family: 'La Belle Aurore';
+      margin-left: 13%;
+      transform: rotate(-3deg);
+      margin-top: 70%;
+    }
+    .p2018{
+      position: absolute;
+      font-size: 10rem;
+      color: #17242A;
+      opacity: 0.6;
+      font-family: 'La Belle Aurore';
+      margin-left: 13%;
+      transform: rotate(-3deg);
+      margin-top: 168%;
+    }
+    .p2019 {
+      position: absolute;
+      font-size: 10rem;
+      color: #17242A;
+      opacity: 0.6;
+      font-family: 'La Belle Aurore';
+      margin-left: 13%;
+      transform: rotate(-3deg);
+      margin-top: 216%;
+    }
+    .p2020 {
+      position: absolute;
+      font-size: 10rem;
+      color: #17242A;
+      opacity: 0.6;
+      font-family: 'La Belle Aurore';
+      margin-left: 12%;
+      transform: rotate(-3deg);
+      margin-top: 264%;
+    }
+    .p2021 {
+      position: absolute;
+      font-size: 10rem;
+      color: #17242A;
+      opacity: 0.6;
+      font-family: 'La Belle Aurore';
+      margin-left: 13%;
+      transform: rotate(-3deg);
+      margin-top: 313%;
+    }
+    .p2022 {
+      position: absolute;
+      font-size: 10rem;
+      color: #17242A;
+      opacity: 0.6;
+      font-family: 'La Belle Aurore';
+      margin-left: 12%;
+      transform: rotate(-3deg);
+      margin-top: 361%;
+    }
+  }
+
+  @media screen and (max-width: 1200px) {
+    .full-page {
+      svg {
+        display: none;
+      }
+        .graduated1 {
+          display: none;
+        }
+        .graduated2 {
+          display: none;
+        }
+        .p2016 {
+          display: none;
+        }
+        .p2017 {
+          display: none;
+        }
+        .p2018{
+          display: none;
+        }
+        .p2019 {
+          display: none;
+        }
+        .p2020 {
+          display: none;
+        }
+        .p2021 {
+          display: none;
+        }
+        .p2022 {
+          display: none;
+        }
+      
+    }
+    
+  }

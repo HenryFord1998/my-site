@@ -1,0 +1,47 @@
+.intro {
+    background: #17242A;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    z-index: 10;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+
+
+.intro-text {
+    color: azure;
+    font-family: "Coolvetica", sans-serif;
+    font-size: 3rem;
+    letter-spacing: 0.5rem;
+    line-height: 4rem;
+}
+
+.slider {
+    background: #2B7A77;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    z-index: 11;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: translateY(100%);
+}
+
+.hide {
+    background: #17242A;
+    overflow: hidden;
+}
+
+.hide span{
+    transform: translateY(100%);
+    display: inline-block;
+}
