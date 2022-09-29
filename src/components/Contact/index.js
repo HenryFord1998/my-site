@@ -23,7 +23,7 @@ function Contact(){
           .then(
             () => {
           alert("Message sent successfully. I will get back to you as soon as possible! 😊");
-          window.location.href=""
+          window.location.href="/"
         },
           () => {
             alert("Failed to send message. Please try again.");
